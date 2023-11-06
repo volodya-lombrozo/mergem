@@ -14,12 +14,7 @@ jobs:
       - run: bundle update
       - run: bundle exec rake rubocop
       - run: |
-          # --github-cache=yegor256/mergem/cache/latest.txt \
           bin/mergem --verbose \
             --token=${{ secrets.TOKEN }} \
-            --repo=yegor256/* \
-            --repo=objectionary/* \
-            --repo=polystat/* \
-            --repo=sttc/* \
-            --repo=zold-io/* \
-            --repo=jcabi/*
+            --repo=volodya-lombrozo/jtcop \
+            --repo=objectionary/jeo-maven-plugin \
