@@ -18,5 +18,9 @@ jobs:
           bin/mergem --verbose \
             --token=${{ secrets.TOKEN }} \
             --repo=volodya-lombrozo/jtcop \
+            --repo=volodya-lombrozo/jsmith \
+            --repo=volodya-lombrozo/conventional-commit-linter \
             --repo=volodya-lombrozo/hg-revision-plugin \
+            --repo=volodya-lombrozo/hg-revision-plugin-example \
             --repo=objectionary/jeo-maven-plugin \
+            --repo=objectionary/opeo-maven-plugin \
