@@ -41,6 +41,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ['--charset=UTF-8']
   s.extra_rdoc_files = ['README.md', 'LICENSE.txt']
   s.add_runtime_dependency 'backtrace', '~>0.3'
+  s.add_runtime_dependency 'base64', '~>0.2'
   s.add_runtime_dependency 'iri', '~>0.5'
   s.add_runtime_dependency 'loog', '~>0.2'
   s.add_runtime_dependency 'obk', '0.3.0'
