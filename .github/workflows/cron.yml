@@ -21,3 +21,4 @@ jobs:
             --repo=volodya-lombrozo/jsmith \
             --repo=objectionary/jeo-maven-plugin \
             --repo=objectionary/opeo-maven-plugin \
+            --repo=volodya-lombrozo/newsman \
