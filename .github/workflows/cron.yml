@@ -22,3 +22,4 @@ jobs:
             --repo=objectionary/jeo-maven-plugin \
             --repo=objectionary/opeo-maven-plugin \
             --repo=volodya-lombrozo/newsman \
+            --repo=volodya-lombrozo/simple-hmac-encoder \
